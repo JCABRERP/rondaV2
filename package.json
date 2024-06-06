@@ -9,14 +9,13 @@
         "sapui5"
     ],
     "main": "webapp/index.html",
-    "dependencies": {},
     "devDependencies": {
-        "@ui5/cli": "^3.0.0",
-        "@sap/ux-ui5-tooling": "1",
         "@sap-ux/ui5-middleware-fe-mockserver": "2",
         "@sap/ui5-builder-webide-extension": "^1.1.8",
-        "ui5-task-zipper": "^0.5.0",
-        "mbt": "^1.2.18"
+        "@sap/ux-ui5-tooling": "^1.13.5",
+        "@ui5/cli": "^3.0.0",
+        "mbt": "^1.2.18",
+        "ui5-task-zipper": "^0.5.0"
     },
     "scripts": {
         "start": "echo \\\"This application was generated with a local metadata file and does not reference a live server. Please add the required server configuration or start this application with mock data using the target: npm run start-mock\\\"",

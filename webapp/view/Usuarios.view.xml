@@ -1,0 +1,100 @@
+<mvc:View xmlns="sap.ui.table" xmlns:mvc="sap.ui.core.mvc" xmlns:u="sap.ui.unified" xmlns:c="sap.ui.core" xmlns:m="sap.m"
+	controllerName="com.enel.flujocajaproyectado.ui5mantenimiento.controller.Usuarios" xmlns:html="http://www.w3.org/1999/xhtml">
+	<m:Page showHeader="false">
+		<m:content>
+			<Table rows="{usuarioModel>/}" visibleRowCount="15" paste="onPaste" ariaLabelledBy="title" selectionMode="Single">
+				<extension>
+					<m:OverflowToolbar>
+						<m:Title id="title" text="{i18n>usuarios}"/>
+						<m:ToolbarSpacer/>
+						<m:Button icon="sap-icon://add" tooltip="Add" press="onUsuarioAdd"/>
+						<m:ToolbarSeparator/>
+						<m:SearchField placeholder="Filter" value="{usuarioCriteriaModel>/queryText}" search="onUsuarioSearch" width="15rem"/>
+					</m:OverflowToolbar>
+				</extension>
+				<columns>
+					<Column width="10%">
+						<m:Label text="{i18n>usuarioCodigo}"/>
+						<template>
+							<m:HBox>
+								<m:Input value="{ path : 'usuarioModel>sUser', type : 'sap.ui.model.type.String', constraints : { minLength: 5 } }"
+									enabled="{= ${usuarioModel>edit} &amp;&amp; ${usuarioCriteriaModel>/isNew} }" valueStateText="{i18n>usuarioCodigoEsRequerido}"
+									visible="{= ${usuarioModel>edit} &amp;&amp; ${usuarioCriteriaModel>/isEdit} }"/>
+								<m:Text text="{path: 'usuarioModel>sUser' }" visible="{usuarioModel>del}"/>
+							</m:HBox>
+						</template>
+					</Column>
+					<Column width="30%">
+						<m:Label text="{i18n>usuarioNombre}"/>
+						<template>
+							<m:HBox>
+								<m:Input value="{ path : 'usuarioModel>sNombre', type : 'sap.ui.model.type.String', constraints : { minLength: 5 } }"
+									enabled="{usuarioModel>edit}" valueStateText="{i18n>usuarioNombreEsRequerido}"
+									visible="{= ${usuarioModel>edit} &amp;&amp; ${usuarioCriteriaModel>/isEdit} }" width="100%"/>
+								<m:Text text="{path: 'usuarioModel>sNombre' }" visible="{usuarioModel>del}"/>
+							</m:HBox>
+						</template>
+					</Column>
+					<Column width="30%">
+						<m:Label text="{i18n>usuarioEmail}"/>
+						<template>
+							<m:HBox>
+								<m:Input value="{ path: 'usuarioModel>sEmail', type: '.customEMailType' }" enabled="{usuarioModel>edit}"
+									valueStateText="{i18n>usuarioEmailEsRequerido}" visible="{= ${usuarioModel>edit} &amp;&amp; ${usuarioCriteriaModel>/isEdit} }" width="100%"/>
+								<m:Text text="{path: 'usuarioModel>sEmail' }" visible="{usuarioModel>del}"/>
+							</m:HBox>
+						</template>
+					</Column>
+					<Column width="10%">
+						<m:Label text="{i18n>usuarioFecha}"/>
+						<template>
+							<m:Text text="{path: 'usuarioModel>dFechaRegistro', formatter:'.formatter.getDateDMYFormat' }"/>
+						</template>
+					</Column>
+					<Column width="10%">
+						<m:Label text="Accion"/>
+						<template>
+							<m:HBox>
+								<m:Button icon="sap-icon://save" press="onUsuarioSave" visible="{usuarioModel>edit}"/>
+								<m:Button icon="sap-icon://sys-cancel" press="onUsuarioCancel" visible="{usuarioModel>edit}"/>
+								<m:Button icon="sap-icon://edit" press="onUsuarioEdit" visible="{usuarioModel>del}"/>
+								<m:Button icon="sap-icon://delete" press="onUsuarioDelete" visible="{usuarioModel>del}"/>
+							</m:HBox>
+						</template>
+					</Column>
+				</columns>
+			</Table>
+			<!--<Table id="maestraTable" inset="false" items="{ path: '/Usuarios'}">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="Tablas" level="H2"/>
+					<ToolbarSpacer/>
+					<Button tooltip="Adicionar" icon="sap-icon://add" press="addPress"/>
+					<Button tooltip="borrar" icon="sap-icon://delete" press="deletePress"/>
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<Column width="12em">
+					<Text text="{i18n>usuarioCodigo}"/>
+					<Input value=""/>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true">
+					<Text text="{i18n>usuarioEmail}"/>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true">
+					<Text text="{i18n>usuarioNombre}"/>
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier title="{sUser}"/>
+						<Text text="{sEmail}"/>
+						<Text text="{sNombre}"/>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>-->
+		</m:content>
+	</m:Page>
+</mvc:View>

@@ -1,89 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
-    <edmx:DataServices m:DataServiceVersion="2.0">
-        <Schema Namespace="ZPM_RONDA_OPERATIVA_SRV" xml:lang="es" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
-            <Annotation Term="Core.SchemaVersion" String="1.0.0" xmlns="http://docs.oasis-open.org/odata/ns/edm"/>
-            <EntityType Name="Ronda" sap:content-version="1">
-                <Key>
-                    <PropertyRef Name="Id"/>
-                </Key>
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="nombre" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Ronda" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Turno" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Turno" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Centro" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Centro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Responsable" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Responsable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Objetivo" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="Objetivo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <NavigationProperty Name="toSistema" Relationship="ZPM_RONDA_OPERATIVA_SRV.RondaSistema" FromRole="FromRole_RondaSistema" ToRole="ToRole_RondaSistema"/>
-            </EntityType>
-            <EntityType Name="Sistema" sap:content-version="1">
-                <Key>
-                    <PropertyRef Name="Rondaid"/>
-                    <PropertyRef Name="Sistemaid"/>
-                </Key>
-                <Property Name="Rondaid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaiId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Sistemaid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Nombre" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Sistema" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Sistemap" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaP" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Subsistema" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Subsistema" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Ubicacion" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Ubic.técn." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <NavigationProperty Name="toActividad" Relationship="ZPM_RONDA_OPERATIVA_SRV.SistemaActividad" FromRole="FromRole_SistemaActividad" ToRole="ToRole_SistemaActividad"/>
-            </EntityType>
-            <EntityType Name="Actividad" sap:content-version="1">
-                <Key>
-                    <PropertyRef Name="ActividadId"/>
-                </Key>
-                <Property Name="ActividadId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="ActividadId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="RondaId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="SistemaId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Orden" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="Orden" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Nombre" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Actividad" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="Tipomedicion" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Tipo Medición" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="ListaValores" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="ListaValores" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="AlertaLista" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="AlertaLista" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="ValorDesde" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="ValorDesde" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-                <Property Name="VarorHasta" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="VarorHasta" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-            </EntityType>
-            <Association Name="SistemaActividad" sap:content-version="1">
-                <End Type="ZPM_RONDA_OPERATIVA_SRV.Sistema" Multiplicity="1" Role="FromRole_SistemaActividad"/>
-                <End Type="ZPM_RONDA_OPERATIVA_SRV.Actividad" Multiplicity="*" Role="ToRole_SistemaActividad"/>
-                <ReferentialConstraint>
-                    <Principal Role="FromRole_SistemaActividad">
-                        <PropertyRef Name="Rondaid"/>
-                        <PropertyRef Name="Sistemaid"/>
-                    </Principal>
-                    <Dependent Role="ToRole_SistemaActividad">
-                        <PropertyRef Name="RondaId"/>
-                        <PropertyRef Name="SistemaId"/>
-                    </Dependent>
-                </ReferentialConstraint>
-            </Association>
-            <Association Name="RondaSistema" sap:content-version="1">
-                <End Type="ZPM_RONDA_OPERATIVA_SRV.Ronda" Multiplicity="1" Role="FromRole_RondaSistema"/>
-                <End Type="ZPM_RONDA_OPERATIVA_SRV.Sistema" Multiplicity="*" Role="ToRole_RondaSistema"/>
-                <ReferentialConstraint>
-                    <Principal Role="FromRole_RondaSistema">
-                        <PropertyRef Name="Id"/>
-                    </Principal>
-                    <Dependent Role="ToRole_RondaSistema">
-                        <PropertyRef Name="Rondaid"/>
-                    </Dependent>
-                </ReferentialConstraint>
-            </Association>
-            <EntityContainer Name="ZPM_RONDA_OPERATIVA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
-                <EntitySet Name="RondaSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Ronda" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="SistemaSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Sistema" sap:pageable="false" sap:requires-filter="true" sap:content-version="1"/>
-                <EntitySet Name="ActividadSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Actividad" sap:pageable="false" sap:requires-filter="true" sap:content-version="1"/>
-                <AssociationSet Name="RondaSistemaSet" Association="ZPM_RONDA_OPERATIVA_SRV.RondaSistema" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-                    <End EntitySet="RondaSet" Role="FromRole_RondaSistema"/>
-                    <End EntitySet="SistemaSet" Role="ToRole_RondaSistema"/>
-                </AssociationSet>
-                <AssociationSet Name="SistemaActividadSet" Association="ZPM_RONDA_OPERATIVA_SRV.SistemaActividad" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-                    <End EntitySet="SistemaSet" Role="FromRole_SistemaActividad"/>
-                    <End EntitySet="ActividadSet" Role="ToRole_SistemaActividad"/>
-                </AssociationSet>
-            </EntityContainer>
-            <atom:link rel="self" href="http://vhseslpasdb01.emeal.nttdata.com:8010/sap/opu/odata/sap/ZPM_RONDA_OPERATIVA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
-            <atom:link rel="latest-version" href="http://vhseslpasdb01.emeal.nttdata.com:8010/sap/opu/odata/sap/ZPM_RONDA_OPERATIVA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
-        </Schema>
-    </edmx:DataServices>
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="ZPM_RONDA_OPERATIVA_SRV" xml:lang="es" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<Annotation Term="Core.SchemaVersion" String="1.0.0" xmlns="http://docs.oasis-open.org/odata/ns/edm"/>
+			<EntityType Name="Ronda" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Id"/>
+				</Key>
+				<Property Name="Id" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sObjetivo" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="Objetivo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sEstado" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Estado" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sNombre" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Ronda" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sTurno" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Turno" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="xActivo" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Activo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sCentro" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Centro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sResponsable" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Responsable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFechaRegistro" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="FechaRegistro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<NavigationProperty Name="toSistema" Relationship="ZPM_RONDA_OPERATIVA_SRV.RondaSistema" FromRole="FromRole_RondaSistema" ToRole="ToRole_RondaSistema"/>
+			</EntityType>
+			<EntityType Name="Sistema" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Rondaid"/>
+					<PropertyRef Name="Sistemaid"/>
+				</Key>
+				<Property Name="Rondaid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaiId" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+				<Property Name="Sistemaid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaId" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+				<Property Name="sNombre" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Sistema" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Sistemap" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaP" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sSubsistema" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Subsistema" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sUbicacion" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Ubic.técn." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<NavigationProperty Name="toActividad" Relationship="ZPM_RONDA_OPERATIVA_SRV.SistemaActividad" FromRole="FromRole_SistemaActividad" ToRole="ToRole_SistemaActividad"/>
+			</EntityType>
+			<EntityType Name="Actividad" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ActividadId"/>
+				</Key>
+				<Property Name="ActividadId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="ActividadId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="RondaId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RondaId" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+				<Property Name="SistemaId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="SistemaId" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+				<Property Name="iOrden" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="Orden" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sNombre" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Actividad" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sTipomedicion" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Tipo Medición" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sListaValores" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="ListaValores" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sAlertaLista" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="AlertaLista" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="iValorDesde" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="ValorDesde" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="iValorHasta" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="ValorHasta" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFechaRegistro" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="FechaRegistro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="xActivo" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Activo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="RecorridoCab" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Recorridoid"/>
+				</Key>
+				<Property Name="Recorridoid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Rondaid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFecha" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="Fecha" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sEstado" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Estado" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sResponsable" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Responsable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFecharegistro" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="FechaRegistro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="xActivo" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Activo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<NavigationProperty Name="toDetalle" Relationship="ZPM_RONDA_OPERATIVA_SRV.CabeceraDetalle" FromRole="FromRole_CabeceraDetalle" ToRole="ToRole_CabeceraDetalle"/>
+			</EntityType>
+			<EntityType Name="RecorridoDet" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="RecorridoId"/>
+					<PropertyRef Name="iOrden"/>
+				</Key>
+				<Property Name="RecorridoId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="RecorridoId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="iOrden" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="Orden" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sActividadId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Actividadid" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFecha" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="Fecha" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sValorlista" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Valorlista" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="iValor" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="Valor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sObservacion" Type="Edm.String" Nullable="false" MaxLength="200" sap:unicode="false" sap:label="Observacion" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sEstado" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Estado" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFechaRegistro" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="Fecharegistro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="xActivo" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Activo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="Usuario" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="UsuarioId"/>
+				</Key>
+				<Property Name="UsuarioId" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="UsuarioId" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sUsuario" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Usuario" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sNombre" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="Nombre" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="sEmail" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="Email" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="dFecharegistro" Type="Edm.DateTime" Nullable="false" Precision="7" sap:unicode="false" sap:label="FechaRegistro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="xActivo" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Activo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<Association Name="SistemaActividad" sap:content-version="1">
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.Sistema" Multiplicity="1" Role="FromRole_SistemaActividad"/>
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.Actividad" Multiplicity="*" Role="ToRole_SistemaActividad"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_SistemaActividad">
+						<PropertyRef Name="Sistemaid"/>
+						<PropertyRef Name="Rondaid"/>
+					</Principal>
+					<Dependent Role="ToRole_SistemaActividad">
+						<PropertyRef Name="SistemaId"/>
+						<PropertyRef Name="RondaId"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="RondaSistema" sap:content-version="1">
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.Ronda" Multiplicity="1" Role="FromRole_RondaSistema"/>
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.Sistema" Multiplicity="*" Role="ToRole_RondaSistema"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_RondaSistema">
+						<PropertyRef Name="Id"/>
+					</Principal>
+					<Dependent Role="ToRole_RondaSistema">
+						<PropertyRef Name="Rondaid"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="CabeceraDetalle" sap:content-version="1">
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.RecorridoCab" Multiplicity="1" Role="FromRole_CabeceraDetalle"/>
+				<End Type="ZPM_RONDA_OPERATIVA_SRV.RecorridoDet" Multiplicity="*" Role="ToRole_CabeceraDetalle"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_CabeceraDetalle">
+						<PropertyRef Name="Recorridoid"/>
+					</Principal>
+					<Dependent Role="ToRole_CabeceraDetalle">
+						<PropertyRef Name="RecorridoId"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="ZPM_RONDA_OPERATIVA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet Name="RondaSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Ronda" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="SistemaSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Sistema" sap:pageable="false" sap:requires-filter="true" sap:content-version="1"/>
+				<EntitySet Name="ActividadSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Actividad" sap:pageable="false" sap:requires-filter="true" sap:content-version="1"/>
+				<EntitySet Name="RecorridoCabSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.RecorridoCab" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="RecorridoDetSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.RecorridoDet" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="UsuarioSet" EntityType="ZPM_RONDA_OPERATIVA_SRV.Usuario" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<AssociationSet Name="CabeceraDetalleSet" Association="ZPM_RONDA_OPERATIVA_SRV.CabeceraDetalle" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+					<End EntitySet="RecorridoCabSet" Role="FromRole_CabeceraDetalle"/>
+					<End EntitySet="RecorridoDetSet" Role="ToRole_CabeceraDetalle"/>
+				</AssociationSet>
+				<AssociationSet Name="RondaSistemaSet" Association="ZPM_RONDA_OPERATIVA_SRV.RondaSistema" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+					<End EntitySet="RondaSet" Role="FromRole_RondaSistema"/>
+					<End EntitySet="SistemaSet" Role="ToRole_RondaSistema"/>
+				</AssociationSet>
+				<AssociationSet Name="SistemaActividadSet" Association="ZPM_RONDA_OPERATIVA_SRV.SistemaActividad" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+					<End EntitySet="SistemaSet" Role="FromRole_SistemaActividad"/>
+					<End EntitySet="ActividadSet" Role="ToRole_SistemaActividad"/>
+				</AssociationSet>
+			</EntityContainer>
+			<atom:link rel="self" href="http://vhseslpasdb01.emeal.nttdata.com:8010/sap/opu/odata/sap/ZPM_RONDA_OPERATIVA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+			<atom:link rel="latest-version" href="http://vhseslpasdb01.emeal.nttdata.com:8010/sap/opu/odata/sap/ZPM_RONDA_OPERATIVA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+		</Schema>
+	</edmx:DataServices>
 </edmx:Edmx>

@@ -1,0 +1,362 @@
+[
+    {
+        "Recorridoid": "4d61d912-0ff2-5e89-9b16-2f0d7f6fda0e",
+        "Rondaid": "a1aed554-9a2c-5a36-b460-04c6a4ae1be3",
+        "dFecha": "/Date(1034324328000)/",
+        "sEstado": "sEstado1",
+        "sResponsable": "5d0dedc2-06f7-5710-95ef-4a91509d9242",
+        "dFecharegistro": "/Date(43073345000)/",
+        "xActivo": "1"
+    },
+    {
+        "Recorridoid": "f31d2244-9096-543e-a2d2-8b55058c33e1",
+        "Rondaid": "1d92f7cc-9c74-5db4-9140-0f953efe8abf",
+        "dFecha": "/Date(549427853000)/",
+        "sEstado": "sEstado2",
+        "sResponsable": "be155440-2486-511c-be03-d66bdb2db4fa",
+        "dFecharegistro": "/Date(1312181247000)/",
+        "xActivo": "2"
+    },
+    {
+        "Recorridoid": "f0f8b952-5398-55f1-9936-31b389736d1d",
+        "Rondaid": "ca4367b7-b02b-5f41-a098-51a7fe11fdfa",
+        "dFecha": "/Date(849740454000)/",
+        "sEstado": "sEstado3",
+        "sResponsable": "c1e457dd-c448-54ed-9c90-737a0c965b37",
+        "dFecharegistro": "/Date(441640949000)/",
+        "xActivo": "3"
+    },
+    {
+        "Recorridoid": "9195ef0e-6571-5553-baa2-4c2aa00a98a0",
+        "Rondaid": "4bbd037a-1ec3-523b-b77e-e50a24ebdeba",
+        "dFecha": "/Date(534889981000)/",
+        "sEstado": "sEstado4",
+        "sResponsable": "32a9bd2b-1836-5ab2-977c-6b540c5ada3f",
+        "dFecharegistro": "/Date(1440519447000)/",
+        "xActivo": "4"
+    },
+    {
+        "Recorridoid": "dbdb0dd0-0457-5b93-88b6-3764004a4264",
+        "Rondaid": "bc1b7a4d-47ba-5424-b1d7-49dd4e8bb8ef",
+        "dFecha": "/Date(1333776369000)/",
+        "sEstado": "sEstado5",
+        "sResponsable": "02d4f515-7088-5bd8-a648-9dccca24df47",
+        "dFecharegistro": "/Date(78934717000)/",
+        "xActivo": "5"
+    },
+    {
+        "Recorridoid": "9426e7e8-75c4-5d15-8272-dd50ebbb2e0c",
+        "Rondaid": "424f5a1b-f6b0-5676-a9fb-e10c1d57ed10",
+        "dFecha": "/Date(525587789000)/",
+        "sEstado": "sEstado6",
+        "sResponsable": "05550271-c2be-57f2-8f07-d12cf5eddbdc",
+        "dFecharegistro": "/Date(1133522858000)/",
+        "xActivo": "6"
+    },
+    {
+        "Recorridoid": "ca44e65d-f8d9-5074-934a-7b78075b4cd5",
+        "Rondaid": "e655a7d3-d323-5c53-96e9-99d8f30e1d20",
+        "dFecha": "/Date(157995720000)/",
+        "sEstado": "sEstado7",
+        "sResponsable": "6c046073-0131-5a4c-a493-a11f056748e8",
+        "dFecharegistro": "/Date(378994395000)/",
+        "xActivo": "7"
+    },
+    {
+        "Recorridoid": "d1e64b93-351a-574e-800f-cd74eced9f71",
+        "Rondaid": "03b8215a-1101-5e70-ae4b-a7ff0ef1c5dd",
+        "dFecha": "/Date(991204447000)/",
+        "sEstado": "sEstado8",
+        "sResponsable": "e96f1263-7129-53c7-be98-eaea8aefd61e",
+        "dFecharegistro": "/Date(766282630000)/",
+        "xActivo": "8"
+    },
+    {
+        "Recorridoid": "9881647f-0f63-5461-a275-a1e4fb53ff40",
+        "Rondaid": "0ac47f35-7fad-5d02-ba88-93a4652a7a82",
+        "dFecha": "/Date(915931330000)/",
+        "sEstado": "sEstado9",
+        "sResponsable": "5a99b57f-9d6e-5945-a440-eb03a384117a",
+        "dFecharegistro": "/Date(112068750000)/",
+        "xActivo": "9"
+    },
+    {
+        "Recorridoid": "24eb4f29-8061-5bff-9253-eb6f4340cc3f",
+        "Rondaid": "bc430f4e-38c7-58ba-af7e-222b630513f7",
+        "dFecha": "/Date(1184284638000)/",
+        "sEstado": "sEstado10",
+        "sResponsable": "dd0c20fd-249f-53e2-8b74-47fb584ab3c4",
+        "dFecharegistro": "/Date(193815871000)/",
+        "xActivo": "0"
+    },
+    {
+        "Recorridoid": "e480da3e-1465-5950-b483-c1f0ce5b322c",
+        "Rondaid": "e80422ee-9d14-5694-9716-6a87be34f09d",
+        "dFecha": "/Date(131887869000)/",
+        "sEstado": "sEstado11",
+        "sResponsable": "132030cc-f640-5e40-9d5b-68450f4e3216",
+        "dFecharegistro": "/Date(1341903846000)/",
+        "xActivo": "1"
+    },
+    {
+        "Recorridoid": "6727e6d9-a22b-53ed-8fd2-6d79911504f5",
+        "Rondaid": "a4fa3520-188d-55cb-9af1-d57bb66c99bd",
+        "dFecha": "/Date(1260481724000)/",
+        "sEstado": "sEstado12",
+        "sResponsable": "7df4cd28-ff45-57f0-b7c8-379d77815373",
+        "dFecharegistro": "/Date(304958629000)/",
+        "xActivo": "2"
+    },
+    {
+        "Recorridoid": "2576c887-95f7-5f23-bfd7-e59dd5c9f50f",
+        "Rondaid": "a70ad079-56cf-50e7-be1f-4d30473ded31",
+        "dFecha": "/Date(645940671000)/",
+        "sEstado": "sEstado13",
+        "sResponsable": "9a5868e2-899b-5931-b7bc-d3dda8a4b06a",
+        "dFecharegistro": "/Date(1339491843000)/",
+        "xActivo": "3"
+    },
+    {
+        "Recorridoid": "37566cdc-4bf7-5f34-b897-ff2303943476",
+        "Rondaid": "3a549a42-37e0-5ca8-8a3e-13b8fa9ecb3a",
+        "dFecha": "/Date(1174595580000)/",
+        "sEstado": "sEstado14",
+        "sResponsable": "4f8b5621-2bff-5913-bcce-125c2e071b17",
+        "dFecharegistro": "/Date(1092737659000)/",
+        "xActivo": "4"
+    },
+    {
+        "Recorridoid": "c38a5077-9fbc-53bc-bc5c-8ac4212accb6",
+        "Rondaid": "f7ace3e3-399e-5480-9ac1-8b9f24d467cc",
+        "dFecha": "/Date(660631934000)/",
+        "sEstado": "sEstado15",
+        "sResponsable": "dfc98411-8b93-5505-9802-d940b508a126",
+        "dFecharegistro": "/Date(177223432000)/",
+        "xActivo": "5"
+    },
+    {
+        "Recorridoid": "49630107-a619-50e7-a0e9-5d2395ed4eb9",
+        "Rondaid": "9d77ddb5-7109-5d2a-8a15-6d8ca1cecc9a",
+        "dFecha": "/Date(1330683878000)/",
+        "sEstado": "sEstado16",
+        "sResponsable": "01ec3090-8d69-55fc-819b-f4c980a8969d",
+        "dFecharegistro": "/Date(235800489000)/",
+        "xActivo": "6"
+    },
+    {
+        "Recorridoid": "9789a14f-f36d-5f9f-ae2e-d1783d40bc27",
+        "Rondaid": "79fe0add-7426-5d15-9fcf-738db11d6342",
+        "dFecha": "/Date(1431231272000)/",
+        "sEstado": "sEstado17",
+        "sResponsable": "77a8edbd-fe7e-517e-909a-4f27273c8e73",
+        "dFecharegistro": "/Date(707559947000)/",
+        "xActivo": "7"
+    },
+    {
+        "Recorridoid": "87d368da-e239-5ff2-b631-09b4dd32d379",
+        "Rondaid": "6f0b2a2a-d47a-5104-a6b0-87335db95fd3",
+        "dFecha": "/Date(904591630000)/",
+        "sEstado": "sEstado18",
+        "sResponsable": "1202c0ee-f9f1-5104-a2cd-b215ab08f116",
+        "dFecharegistro": "/Date(409464539000)/",
+        "xActivo": "8"
+    },
+    {
+        "Recorridoid": "02bb3008-7d41-5581-82a1-b1bb68851035",
+        "Rondaid": "c2fed792-9a59-5ea9-b4e6-c41c2bd274e3",
+        "dFecha": "/Date(818734421000)/",
+        "sEstado": "sEstado19",
+        "sResponsable": "b91a295b-77cf-5ae3-9437-ec1d2a30c1e2",
+        "dFecharegistro": "/Date(1347274017000)/",
+        "xActivo": "9"
+    },
+    {
+        "Recorridoid": "85308a98-88eb-5468-b12f-2be971bfbaf2",
+        "Rondaid": "cbe41a1f-75ab-5738-8d40-e84ff30fc771",
+        "dFecha": "/Date(682569109000)/",
+        "sEstado": "sEstado20",
+        "sResponsable": "840b307a-99e6-5c4c-92f1-375f15040ccd",
+        "dFecharegistro": "/Date(1210623963000)/",
+        "xActivo": "0"
+    },
+    {
+        "Recorridoid": "0534511d-44ca-5750-9a29-8a6323ba2b63",
+        "Rondaid": "89bc882c-0917-54d8-8980-61ed78096173",
+        "dFecha": "/Date(1306862934000)/",
+        "sEstado": "sEstado21",
+        "sResponsable": "a5ae22f5-a56d-579d-ae5c-62eee25588fa",
+        "dFecharegistro": "/Date(1252188972000)/",
+        "xActivo": "1"
+    },
+    {
+        "Recorridoid": "9d3619b7-7c4e-5265-a178-319cc44e6acf",
+        "Rondaid": "bc066ca2-eadf-56b8-ae21-b3da7a1d6663",
+        "dFecha": "/Date(212291495000)/",
+        "sEstado": "sEstado22",
+        "sResponsable": "278bf694-575f-5350-ad6f-182c50458a9b",
+        "dFecharegistro": "/Date(904247313000)/",
+        "xActivo": "2"
+    },
+    {
+        "Recorridoid": "97a13ec5-9f13-5df7-92d8-6ded4cdbe52c",
+        "Rondaid": "c69cf380-72f5-5dc4-99a3-0e92d1e08668",
+        "dFecha": "/Date(213422510000)/",
+        "sEstado": "sEstado23",
+        "sResponsable": "d4bd420b-f011-52ed-b61f-d89fdc9b442a",
+        "dFecharegistro": "/Date(1407501044000)/",
+        "xActivo": "3"
+    },
+    {
+        "Recorridoid": "bbe9823b-2094-5a5a-8bbe-85981bb996ab",
+        "Rondaid": "0338a4df-d382-58aa-8c2f-26e798445ff9",
+        "dFecha": "/Date(433762522000)/",
+        "sEstado": "sEstado24",
+        "sResponsable": "31223217-c31f-5606-b0eb-9e491e8d09fe",
+        "dFecharegistro": "/Date(1032367027000)/",
+        "xActivo": "4"
+    },
+    {
+        "Recorridoid": "db0fa38b-5151-5441-b371-ad25fad78a65",
+        "Rondaid": "03150ef4-b875-5260-970c-7d213ce91f1a",
+        "dFecha": "/Date(1830625000)/",
+        "sEstado": "sEstado25",
+        "sResponsable": "c97f4e46-6b21-53dd-bdb5-f93b232a10c1",
+        "dFecharegistro": "/Date(698780922000)/",
+        "xActivo": "5"
+    },
+    {
+        "Recorridoid": "848b3440-5daf-5ca9-b629-b33aa9fd9406",
+        "Rondaid": "33e1ef83-387f-5980-b0ba-2fcc85cbc4b9",
+        "dFecha": "/Date(654433802000)/",
+        "sEstado": "sEstado26",
+        "sResponsable": "6e43fcc5-664f-5703-ab9b-2b41c9002930",
+        "dFecharegistro": "/Date(1227563856000)/",
+        "xActivo": "6"
+    },
+    {
+        "Recorridoid": "33018427-0f8e-5b87-8d69-a79c21420f73",
+        "Rondaid": "d23b6bc4-1f8b-51e1-9b81-b9a1e01dd34f",
+        "dFecha": "/Date(920670100000)/",
+        "sEstado": "sEstado27",
+        "sResponsable": "8fbe0f80-e718-5246-b5d9-da1417c3169a",
+        "dFecharegistro": "/Date(817233075000)/",
+        "xActivo": "7"
+    },
+    {
+        "Recorridoid": "bddc46e9-b1f0-5224-8c61-f0833826914d",
+        "Rondaid": "89836f8f-d675-57ad-ad73-638a8ae23aa9",
+        "dFecha": "/Date(307005169000)/",
+        "sEstado": "sEstado28",
+        "sResponsable": "9889b69d-f3ac-5368-b479-481f6ee7bb8c",
+        "dFecharegistro": "/Date(617627031000)/",
+        "xActivo": "8"
+    },
+    {
+        "Recorridoid": "6e143e61-27aa-5396-9afe-c5099047b1ed",
+        "Rondaid": "9626ad8d-fdb2-5df6-96ee-5f8a638f5437",
+        "dFecha": "/Date(884459029000)/",
+        "sEstado": "sEstado29",
+        "sResponsable": "ae0db7e1-d4ad-5255-9bc6-f214ee76ec1a",
+        "dFecharegistro": "/Date(939676313000)/",
+        "xActivo": "9"
+    },
+    {
+        "Recorridoid": "3382d9b6-6a68-546b-9466-a1f462d028f1",
+        "Rondaid": "6bc29b6d-2f68-548c-a96c-9efacabb92ad",
+        "dFecha": "/Date(13134962000)/",
+        "sEstado": "sEstado30",
+        "sResponsable": "1b1d8590-b7c6-5574-adab-19612e8140f1",
+        "dFecharegistro": "/Date(1322472332000)/",
+        "xActivo": "0"
+    },
+    {
+        "Recorridoid": "92a2746c-8aff-51e5-b079-74d75dbf442f",
+        "Rondaid": "39daecd2-1e6a-5248-ad5e-5d026751a9c2",
+        "dFecha": "/Date(1133409651000)/",
+        "sEstado": "sEstado31",
+        "sResponsable": "4153de46-f11b-524f-9ca3-8a7494306a21",
+        "dFecharegistro": "/Date(1206569199000)/",
+        "xActivo": "1"
+    },
+    {
+        "Recorridoid": "a1818338-6da7-5efe-bfe3-2327cacc9db3",
+        "Rondaid": "c9845a9d-7b98-578c-bbd5-25be4d1edb05",
+        "dFecha": "/Date(1242827923000)/",
+        "sEstado": "sEstado32",
+        "sResponsable": "5e05ea39-91cf-57dc-ace7-784ec297a1c3",
+        "dFecharegistro": "/Date(845325431000)/",
+        "xActivo": "2"
+    },
+    {
+        "Recorridoid": "a637eda7-83c6-5672-bd02-609f67a88d77",
+        "Rondaid": "95b37bd4-86f0-55bb-981b-ab5540906e12",
+        "dFecha": "/Date(629840658000)/",
+        "sEstado": "sEstado33",
+        "sResponsable": "4043d2d1-67ff-520c-bd3b-134ffa666a60",
+        "dFecharegistro": "/Date(1414345126000)/",
+        "xActivo": "3"
+    },
+    {
+        "Recorridoid": "51c598f3-2432-5304-ac3d-56295e4a56cb",
+        "Rondaid": "462da66a-0220-5b4c-811a-cc02d95b7f09",
+        "dFecha": "/Date(458285510000)/",
+        "sEstado": "sEstado34",
+        "sResponsable": "d46dc3cb-a342-547a-afc3-809271519157",
+        "dFecharegistro": "/Date(1135752999000)/",
+        "xActivo": "4"
+    },
+    {
+        "Recorridoid": "dc6a9671-28a8-53fd-bf0d-5a564e9f5142",
+        "Rondaid": "d08fbfd7-a7c9-513e-992f-5158457f6678",
+        "dFecha": "/Date(22910114000)/",
+        "sEstado": "sEstado35",
+        "sResponsable": "a7f77056-bfd2-5b68-9cf0-54a986296f6e",
+        "dFecharegistro": "/Date(96418744000)/",
+        "xActivo": "5"
+    },
+    {
+        "Recorridoid": "8c9305c6-50c8-55b5-8c95-3e4169efdaaf",
+        "Rondaid": "ec71ddb7-67d6-5ef5-8d9e-0d48c50cc088",
+        "dFecha": "/Date(1368892685000)/",
+        "sEstado": "sEstado36",
+        "sResponsable": "6f17814a-cdb3-5de8-8bbb-6982ffa8ae1b",
+        "dFecharegistro": "/Date(967964579000)/",
+        "xActivo": "6"
+    },
+    {
+        "Recorridoid": "251f4447-e5bc-5603-b0ba-1b91a4b149a6",
+        "Rondaid": "1880175f-65a2-5b98-84b7-f2cb78fab40e",
+        "dFecha": "/Date(175688640000)/",
+        "sEstado": "sEstado37",
+        "sResponsable": "2690a143-5432-5611-8f96-34f31740b932",
+        "dFecharegistro": "/Date(1303983865000)/",
+        "xActivo": "7"
+    },
+    {
+        "Recorridoid": "c9b87a7f-bd37-51cf-985b-2656265faf08",
+        "Rondaid": "6f7f1b93-3f4b-50d1-8d3d-30363b1937ce",
+        "dFecha": "/Date(477039492000)/",
+        "sEstado": "sEstado38",
+        "sResponsable": "180b8857-fb94-574c-97d2-6c4de546089c",
+        "dFecharegistro": "/Date(58791956000)/",
+        "xActivo": "8"
+    },
+    {
+        "Recorridoid": "c8ddd986-600d-5fff-bbdb-66bba3c20fc1",
+        "Rondaid": "118b4d9d-d272-5ffe-81b0-0e9134ae0607",
+        "dFecha": "/Date(579343962000)/",
+        "sEstado": "sEstado39",
+        "sResponsable": "07f803e1-e998-5a9b-96a2-6ce89e3fcb5a",
+        "dFecharegistro": "/Date(886283263000)/",
+        "xActivo": "9"
+    },
+    {
+        "Recorridoid": "fdbc3fec-ae88-5e34-a338-d355492f6313",
+        "Rondaid": "556861cd-5a4b-58d4-ba92-8cc24aad3111",
+        "dFecha": "/Date(778176466000)/",
+        "sEstado": "sEstado40",
+        "sResponsable": "32d0ef1e-2ffd-5595-a4b3-f3075532188b",
+        "dFecharegistro": "/Date(39237755000)/",
+        "xActivo": "0"
+    }
+]

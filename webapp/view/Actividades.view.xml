@@ -1,15 +1,15 @@
-<mvc:View controllerName="com.odl.rondas.controller.mainView"
-    xmlns:mvc="sap.ui.core.mvc" 
-    displayBlock="true"
+<mvc:View controllerName="com.odl.rondas.controller.Actividades"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
- <Page id="main" title="{i18n>title}">
+    <Page id="actividadesId" title="{i18n>title}">
         <content>
-        <List items="{ path: '/ActividadSet'}">
+        <Text text="Actividades"/>
+ <!--   <List items="{ path: '/ActividadSet'}">
             <StandardListItem 
                     title = "{Nombre}"
                     info="{Tipomedicion}"
             />
-         </List>
+         </List> -->
          </content>
     </Page>
 <!--	<Page id="masterHome" showHeader="false" backgroundDesign="List" class="sapUiTinyMarginBeginEnd">

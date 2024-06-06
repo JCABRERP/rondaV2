@@ -1,15 +1,16 @@
-<mvc:View controllerName="com.odl.rondas.controller.mainView"
+<mvc:View controllerName="com.odl.rondas.controller.Sistemas"
     xmlns:mvc="sap.ui.core.mvc" 
     displayBlock="true"
     xmlns="sap.m">
- <Page id="main" title="{i18n>title}">
+    <Page id="sistemasId" title="{i18n>title}">
         <content>
-        <List items="{ path: '/ActividadSet'}">
+        <Text text="Sistemas"/>
+ <!--   <List items="{ path: '/ActividadSet'}">
             <StandardListItem 
                     title = "{Nombre}"
                     info="{Tipomedicion}"
             />
-         </List>
+         </List> -->
          </content>
     </Page>
 <!--	<Page id="masterHome" showHeader="false" backgroundDesign="List" class="sapUiTinyMarginBeginEnd">

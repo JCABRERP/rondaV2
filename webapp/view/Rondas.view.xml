@@ -1,0 +1,55 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table"
+	controllerName="com.odl.rondas.controller.Rondas" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page id="rondasId" showHeader="false">
+		<Title text="Rondas"/>
+		<Table id="rondaTableId" inset="false" mode="None"
+			items="{ path: '/RondaSet' }">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="Rondas"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://add" tooltip="Adicionar" press="onAddSociedad"/>
+					<ToolbarSeparator/>
+					<SearchField id="searchField" tooltip="{i18n>sociedadSearchTooltip}" search="onSearch" width="auto"></SearchField>
+				<!--	<Button tooltip="borrar" icon="sap-icon://delete" press="onDelSociedadPress"/>-->
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<Column width="30%">
+					<Text text="Nombre"/>
+				</Column>
+				<Column width="10%" minScreenWidth="Tablet" demandPopin="true">
+					<Text text="Turno"/>
+				</Column>
+				<Column width="10%">
+					<Text text="Centro"/>
+				</Column>
+				<Column width="30%">
+					<Text text="Responsable"/>
+				</Column>
+				<Column width="50%">
+					<Text text="Objetivo"/>
+				</Column>
+				<Column width="10%">
+					<Text text="Acción"/>
+				</Column>
+			</columns>
+			<items>
+				<!--<ColumnListItem type="Navigation" press=".onSelectItem">-->
+				<ColumnListItem >
+					<cells>
+						<ObjectIdentifier title="{sNombre}"/>
+						<Text text="{sTurno}"/>
+						<Text text="{sCentro}"/>
+						<Text text="{sResponsable}"/>
+						<Text text="{sObjetivo}"/>
+						<HBox>
+							<Button tooltip="editar" icon="sap-icon://edit" press="onEditPress"/>
+							<Button tooltip="borrar" icon="sap-icon://delete" press="onDelSociedadPress"/>
+						</HBox>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>		
+	</Page>
+</mvc:View>

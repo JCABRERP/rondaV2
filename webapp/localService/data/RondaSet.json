@@ -1,0 +1,69 @@
+[
+    {
+        "Id": "62222b44-adb5-5a14-a3ac-d9ee0deaaae2",
+        "sObjetivo": "sObjetivo1",
+        "sEstado": "sEstado1",
+        "sNombre": "sNombre1",
+        "sTurno": "sTurno1",
+        "xActivo": "1",
+        "sCentro": "sCentro1",
+        "sResponsable": "8e345370-bcde-5502-b579-e8a4637fc90a",
+        "dFechaRegistro": "/Date(503349857000)/"
+    },
+    {
+        "Id": "cbdc41d3-4e82-526b-bc01-f0e9d0859b8a",
+        "sObjetivo": "sObjetivo2",
+        "sEstado": "sEstado2",
+        "sNombre": "sNombre2",
+        "sTurno": "sTurno2",
+        "xActivo": "2",
+        "sCentro": "sCentro2",
+        "sResponsable": "ddf4053d-26bd-5f15-8442-cd6ebf4dbf43",
+        "dFechaRegistro": "/Date(1235567936000)/"
+    },
+    {
+        "Id": "c6830ff3-0826-5925-a5d4-b6198e14723e",
+        "sObjetivo": "sObjetivo3",
+        "sEstado": "sEstado3",
+        "sNombre": "sNombre3",
+        "sTurno": "sTurno3",
+        "xActivo": "3",
+        "sCentro": "sCentro3",
+        "sResponsable": "184912af-59ef-55ac-a327-f75ca22862bd",
+        "dFechaRegistro": "/Date(272204956000)/"
+    },
+    {
+        "Id": "1693a1e3-130e-5fea-adae-ac3adf2f08b6",
+        "sObjetivo": "sObjetivo4",
+        "sEstado": "sEstado4",
+        "sNombre": "sNombre4",
+        "sTurno": "sTurno4",
+        "xActivo": "4",
+        "sCentro": "sCentro4",
+        "sResponsable": "c304805f-3fa0-506a-952e-515ea37b3ec9",
+        "dFechaRegistro": "/Date(24726923000)/"
+    },
+    {
+        "Id": "fece28e7-2a35-5acf-9fcc-d081cfe118cd",
+        "sObjetivo": "sObjetivo5",
+        "sEstado": "sEstado5",
+        "sNombre": "sNombre5",
+        "sTurno": "sTurno5",
+        "xActivo": "5",
+        "sCentro": "sCentro5",
+        "sResponsable": "fea52a06-8701-5a33-9034-a479cf42ed0f",
+        "FechaRegistro": "/Date(715624731000)/"
+    },
+    {
+        "Id": "ba2da67d-01a1-5506-850c-99e2f7ab2762",
+        "sObjetivo": "sObjetivo6",
+        "sEstado": "sEstado6",
+        "sNombre": "sNombre6",
+        "sTurno": "sTurno6",
+        "xActivo": "6",
+        "sCentro": "sCentro6",
+        "sResponsable": "a6068b6b-d40e-5ed2-9d98-8f56b3666f74",
+        "dFechaRegistro": "/Date(611035450000)/"
+    }
+
+]

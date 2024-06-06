@@ -1,0 +1,322 @@
+[
+    {
+        "UsuarioId": "cbf371d9-ccca-52f2-bfa5-918a71ba0fa0",
+        "sUsuario": "sUsuario1",
+        "sNombre": "sNombre1",
+        "sEmail": "sEmail1",
+        "dFecharegistro": "/Date(426155717000)/",
+        "xActivo": "1"
+    },
+    {
+        "UsuarioId": "737ff0e0-8f90-5f41-a8cb-ee59766a454f",
+        "sUsuario": "sUsuario2",
+        "sNombre": "sNombre2",
+        "sEmail": "sEmail2",
+        "dFecharegistro": "/Date(1391218976000)/",
+        "xActivo": "2"
+    },
+    {
+        "UsuarioId": "74b5e97c-8035-5ac6-8be9-666e64aeccfe",
+        "sUsuario": "sUsuario3",
+        "sNombre": "sNombre3",
+        "sEmail": "sEmail3",
+        "dFecharegistro": "/Date(1225621300000)/",
+        "xActivo": "3"
+    },
+    {
+        "UsuarioId": "dc84ad67-9fa7-5ed3-91ef-68b9eea91cca",
+        "sUsuario": "sUsuario4",
+        "sNombre": "sNombre4",
+        "sEmail": "sEmail4",
+        "dFecharegistro": "/Date(1050720270000)/",
+        "xActivo": "4"
+    },
+    {
+        "UsuarioId": "2ecdcf8d-7a32-5e9c-826c-e845f2810bc7",
+        "sUsuario": "sUsuario5",
+        "sNombre": "sNombre5",
+        "sEmail": "sEmail5",
+        "dFecharegistro": "/Date(173706241000)/",
+        "xActivo": "5"
+    },
+    {
+        "UsuarioId": "165ad1f9-105f-5e9f-be79-c8b6a69ad42b",
+        "sUsuario": "sUsuario6",
+        "sNombre": "sNombre6",
+        "sEmail": "sEmail6",
+        "dFecharegistro": "/Date(1222237418000)/",
+        "xActivo": "6"
+    },
+    {
+        "UsuarioId": "c1204219-1465-5fe3-9f5e-94a376755f5d",
+        "sUsuario": "sUsuario7",
+        "sNombre": "sNombre7",
+        "sEmail": "sEmail7",
+        "dFecharegistro": "/Date(1348230516000)/",
+        "xActivo": "7"
+    },
+    {
+        "UsuarioId": "984862e2-1305-59af-a244-59d72402bba5",
+        "sUsuario": "sUsuario8",
+        "sNombre": "sNombre8",
+        "sEmail": "sEmail8",
+        "dFecharegistro": "/Date(196329298000)/",
+        "xActivo": "8"
+    },
+    {
+        "UsuarioId": "8d8afd50-7b1c-503d-82fa-692a432d5ed2",
+        "sUsuario": "sUsuario9",
+        "sNombre": "sNombre9",
+        "sEmail": "sEmail9",
+        "dFecharegistro": "/Date(1279155846000)/",
+        "xActivo": "9"
+    },
+    {
+        "UsuarioId": "d864f251-96f7-5523-a1f4-b00de5ab966c",
+        "sUsuario": "sUsuario10",
+        "sNombre": "sNombre10",
+        "sEmail": "sEmail10",
+        "dFecharegistro": "/Date(1216764178000)/",
+        "xActivo": "0"
+    },
+    {
+        "UsuarioId": "246ba2da-541e-5d01-a563-4e4b94cb398f",
+        "sUsuario": "sUsuario11",
+        "sNombre": "sNombre11",
+        "sEmail": "sEmail11",
+        "dFecharegistro": "/Date(1249589025000)/",
+        "xActivo": "1"
+    },
+    {
+        "UsuarioId": "edd47730-a171-5d67-9723-cdd668fb5650",
+        "sUsuario": "sUsuario12",
+        "sNombre": "sNombre12",
+        "sEmail": "sEmail12",
+        "dFecharegistro": "/Date(1225747679000)/",
+        "xActivo": "2"
+    },
+    {
+        "UsuarioId": "6cd9be6b-0b3a-5040-9da9-b43b846f99a2",
+        "sUsuario": "sUsuario13",
+        "sNombre": "sNombre13",
+        "sEmail": "sEmail13",
+        "dFecharegistro": "/Date(1363011692000)/",
+        "xActivo": "3"
+    },
+    {
+        "UsuarioId": "73c3c2b6-a5ab-5525-9588-cf47b078949e",
+        "sUsuario": "sUsuario14",
+        "sNombre": "sNombre14",
+        "sEmail": "sEmail14",
+        "dFecharegistro": "/Date(1389025919000)/",
+        "xActivo": "4"
+    },
+    {
+        "UsuarioId": "a98b21cd-83ab-5036-8532-8c1aedef6941",
+        "sUsuario": "sUsuario15",
+        "sNombre": "sNombre15",
+        "sEmail": "sEmail15",
+        "dFecharegistro": "/Date(133646984000)/",
+        "xActivo": "5"
+    },
+    {
+        "UsuarioId": "315ee5f5-f149-5e74-97ee-36f931feba75",
+        "sUsuario": "sUsuario16",
+        "sNombre": "sNombre16",
+        "sEmail": "sEmail16",
+        "dFecharegistro": "/Date(490603263000)/",
+        "xActivo": "6"
+    },
+    {
+        "UsuarioId": "c29229a9-5e77-5994-a1f2-48f6fed19386",
+        "sUsuario": "sUsuario17",
+        "sNombre": "sNombre17",
+        "sEmail": "sEmail17",
+        "dFecharegistro": "/Date(1127747436000)/",
+        "xActivo": "7"
+    },
+    {
+        "UsuarioId": "391dac39-aa4f-522b-9c3d-c87770a5ace8",
+        "sUsuario": "sUsuario18",
+        "sNombre": "sNombre18",
+        "sEmail": "sEmail18",
+        "dFecharegistro": "/Date(923084338000)/",
+        "xActivo": "8"
+    },
+    {
+        "UsuarioId": "b63c90aa-3760-5002-9a2e-7dba75f664f8",
+        "sUsuario": "sUsuario19",
+        "sNombre": "sNombre19",
+        "sEmail": "sEmail19",
+        "dFecharegistro": "/Date(954731034000)/",
+        "xActivo": "9"
+    },
+    {
+        "UsuarioId": "c84aab08-2ff3-5bc6-bc86-0065e1820976",
+        "sUsuario": "sUsuario20",
+        "sNombre": "sNombre20",
+        "sEmail": "sEmail20",
+        "dFecharegistro": "/Date(743283642000)/",
+        "xActivo": "0"
+    },
+    {
+        "UsuarioId": "fcd33eb8-388e-50cc-b5cf-638840685d90",
+        "sUsuario": "sUsuario21",
+        "sNombre": "sNombre21",
+        "sEmail": "sEmail21",
+        "dFecharegistro": "/Date(1209985998000)/",
+        "xActivo": "1"
+    },
+    {
+        "UsuarioId": "dbc43225-20d0-5de6-9ef8-f8f23a86dfbe",
+        "sUsuario": "sUsuario22",
+        "sNombre": "sNombre22",
+        "sEmail": "sEmail22",
+        "dFecharegistro": "/Date(75349678000)/",
+        "xActivo": "2"
+    },
+    {
+        "UsuarioId": "03a50278-f64e-51f6-8c7f-bdb043589937",
+        "sUsuario": "sUsuario23",
+        "sNombre": "sNombre23",
+        "sEmail": "sEmail23",
+        "dFecharegistro": "/Date(253897780000)/",
+        "xActivo": "3"
+    },
+    {
+        "UsuarioId": "b22feb9c-6ce0-5cd7-9bbd-e74f97c4e8d4",
+        "sUsuario": "sUsuario24",
+        "sNombre": "sNombre24",
+        "sEmail": "sEmail24",
+        "dFecharegistro": "/Date(379731020000)/",
+        "xActivo": "4"
+    },
+    {
+        "UsuarioId": "f437f4b7-483c-5fc6-8bab-a26c0fc06e08",
+        "sUsuario": "sUsuario25",
+        "sNombre": "sNombre25",
+        "sEmail": "sEmail25",
+        "dFecharegistro": "/Date(1231845167000)/",
+        "xActivo": "5"
+    },
+    {
+        "UsuarioId": "1a8b9c14-df85-5fdd-bdb8-0c3a6b9631a8",
+        "sUsuario": "sUsuario26",
+        "sNombre": "sNombre26",
+        "sEmail": "sEmail26",
+        "dFecharegistro": "/Date(530367817000)/",
+        "xActivo": "6"
+    },
+    {
+        "UsuarioId": "da6f534d-7408-5c07-a5d5-68604945e2cc",
+        "sUsuario": "sUsuario27",
+        "sNombre": "sNombre27",
+        "sEmail": "sEmail27",
+        "dFecharegistro": "/Date(976113538000)/",
+        "xActivo": "7"
+    },
+    {
+        "UsuarioId": "f8be1a4c-cd27-5d73-8e5e-2846f1611f60",
+        "sUsuario": "sUsuario28",
+        "sNombre": "sNombre28",
+        "sEmail": "sEmail28",
+        "dFecharegistro": "/Date(265600765000)/",
+        "xActivo": "8"
+    },
+    {
+        "UsuarioId": "a6ef8c10-03ce-50fe-a2fc-431a719cee1d",
+        "sUsuario": "sUsuario29",
+        "sNombre": "sNombre29",
+        "sEmail": "sEmail29",
+        "dFecharegistro": "/Date(88209714000)/",
+        "xActivo": "9"
+    },
+    {
+        "UsuarioId": "4e92e315-425c-5165-965d-79a59a3919b7",
+        "sUsuario": "sUsuario30",
+        "sNombre": "sNombre30",
+        "sEmail": "sEmail30",
+        "dFecharegistro": "/Date(882080919000)/",
+        "xActivo": "0"
+    },
+    {
+        "UsuarioId": "dc23937d-12fd-577a-97e5-a8f69f6b2d1d",
+        "sUsuario": "sUsuario31",
+        "sNombre": "sNombre31",
+        "sEmail": "sEmail31",
+        "dFecharegistro": "/Date(1431122368000)/",
+        "xActivo": "1"
+    },
+    {
+        "UsuarioId": "36015645-9961-5a9f-9ffe-8752d02de3a5",
+        "sUsuario": "sUsuario32",
+        "sNombre": "sNombre32",
+        "sEmail": "sEmail32",
+        "dFecharegistro": "/Date(1128483661000)/",
+        "xActivo": "2"
+    },
+    {
+        "UsuarioId": "5fedd21c-7833-561b-8da1-8312faed2f04",
+        "sUsuario": "sUsuario33",
+        "sNombre": "sNombre33",
+        "sEmail": "sEmail33",
+        "dFecharegistro": "/Date(975458731000)/",
+        "xActivo": "3"
+    },
+    {
+        "UsuarioId": "1d7c9e15-1634-5e35-a062-bb4e013c9469",
+        "sUsuario": "sUsuario34",
+        "sNombre": "sNombre34",
+        "sEmail": "sEmail34",
+        "dFecharegistro": "/Date(303675988000)/",
+        "xActivo": "4"
+    },
+    {
+        "UsuarioId": "fc0a1026-205e-587a-869d-3aab738de03c",
+        "sUsuario": "sUsuario35",
+        "sNombre": "sNombre35",
+        "sEmail": "sEmail35",
+        "dFecharegistro": "/Date(1127994544000)/",
+        "xActivo": "5"
+    },
+    {
+        "UsuarioId": "3618b743-3777-520a-b278-c8eef9a88bb6",
+        "sUsuario": "sUsuario36",
+        "sNombre": "sNombre36",
+        "sEmail": "sEmail36",
+        "dFecharegistro": "/Date(1400649002000)/",
+        "xActivo": "6"
+    },
+    {
+        "UsuarioId": "b9322d06-c662-5ca8-a1a9-046d01bece8e",
+        "sUsuario": "sUsuario37",
+        "sNombre": "sNombre37",
+        "sEmail": "sEmail37",
+        "dFecharegistro": "/Date(158752429000)/",
+        "xActivo": "7"
+    },
+    {
+        "UsuarioId": "e7b2a4b4-be4f-5617-9e37-b71999dae784",
+        "sUsuario": "sUsuario38",
+        "sNombre": "sNombre38",
+        "sEmail": "sEmail38",
+        "dFecharegistro": "/Date(1128131114000)/",
+        "xActivo": "8"
+    },
+    {
+        "UsuarioId": "d5e092b7-e46a-5d47-bb5e-005583fd90eb",
+        "sUsuario": "sUsuario39",
+        "sNombre": "sNombre39",
+        "sEmail": "sEmail39",
+        "dFecharegistro": "/Date(467746820000)/",
+        "xActivo": "9"
+    },
+    {
+        "UsuarioId": "09ee1531-e7a8-574b-867b-477cee05e4f7",
+        "sUsuario": "sUsuario40",
+        "sNombre": "sNombre40",
+        "sEmail": "sEmail40",
+        "dFecharegistro": "/Date(102138738000)/",
+        "xActivo": "0"
+    }
+]

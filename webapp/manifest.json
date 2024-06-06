@@ -103,7 +103,7 @@
         "async": true,
         "viewPath": "com.odl.rondas.view",
         "controlAggregation": "pages",
-        "controlId": "app",
+        "controlId": "mainContents",
         "clearControlAggregation": false
       },
       "routes": [
@@ -113,16 +113,62 @@
           "target": [
             "TargetmainView"
           ]
-        }
+        }, 
+        {
+          "pattern": "Rondas",
+          "name": "ronda",
+          "target": "tg_rondas"
+        }, 
+        {
+          "pattern": "Actividades",
+          "name": "actividad",
+          "target": "tg_actividades"
+        },
+        {
+          "pattern": "Sistemas",
+          "name": "sistema",
+          "target": "tg_sistemas"
+        }, 
+        {
+          "pattern": "Usuarios",
+          "name": "usuario",
+          "target": "tg_usuarios"
+        }    
+
       ],
       "targets": {
         "TargetmainView": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "mainView",
-          "viewName": "mainView"
-        }
+          "viewName": "Rondas",
+          "viewId": "rondasId"
+        }, 
+        "tg_rondas": {
+					"viewType": "XML",
+					"viewName": "Rondas",
+          "viewId": "rondasId",
+					"transition": "slide"
+				},
+        "tg_actividades": {
+					"viewType": "XML",
+          "viewId": "actividadesId",
+					"viewName": "Actividades",
+					"transition": "slide"
+				}, 
+        "tg_sistemas": {
+					"viewType": "XML",
+          "viewId": "sistemasId",
+					"viewName": "Sistemas",
+					"transition": "slide"
+				}, 
+        "tg_usuarios": {
+					"viewType": "XML",
+          "viewName": "Rondas",
+          "viewId": "rondasId",
+					"transition": "slide"
+				}
+
       }
     },
     "rootView": {
